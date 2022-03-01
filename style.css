@@ -1,0 +1,209 @@
+    header {
+        height: 150px;
+        background-color: white;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+    }
+    
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .header_inner {
+        display: flex;
+        align-items: center;
+        height: inherit;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        padding: 0;
+        margin-top: 10;
+        margin-bottom: 20px;
+    }
+    
+    .logo h2 {
+        color: #888;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    
+    .logo h1 {
+        color: black;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    
+    .nav {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .nav>a {
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        color: rgba(0, 0, 0, .3);
+    }
+    
+    .row {
+        height: 600px;
+        width: 1290px;
+        background: url(./image.jpeg);
+        background-size: cover;
+        text-align: center;
+        margin: 15px;
+        margin-left: 70px;
+    }
+    
+    .row_1 {
+        padding: 150px;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+    
+    .row_1>a {
+        text-decoration: none;
+        font-size: 50px;
+        color: #373a3c;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .row_1>a>span {
+        font-size: 25px;
+        line-height: 36px;
+        color: #555;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .buttons {
+        margin: 10px;
+        padding: 16px 40px;
+        padding-top: 16px;
+        padding-right: 40px;
+        padding-bottom: 16px;
+        padding-left: 40px;
+        font-size: 50px;
+    }
+    
+    .b1 {
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d9534f;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        line-height: 1.5;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .b2 {
+        color: #fff;
+        background-color: #5cb85c;
+        border-color: #5cb85c;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        line-height: 1.5;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .test {
+        margin-left: 70px;
+        margin-right: 64px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .test>div {
+        width: 320px;
+        height: 400px;
+        padding: 50px 30px;
+    }
+    
+    .test div>a>i {
+        font-size: 60px;
+    }
+    
+    .test>div:nth-child(2)>a>i {
+        color: #fff;
+    }
+    
+    .test>div:nth-child(3)>a>i {
+        color: #fff;
+    }
+    
+    .test>div:nth-child(4)>a>i {
+        color: #fff;
+    }
+    
+    .test>div:nth-child(2)>a>p {
+        color: #fff;
+    }
+    
+    .test>div:nth-child(3)>a>p {
+        color: #fff;
+    }
+    
+    .test>div:nth-child(4)>a>p {
+        color: #fff;
+    }
+    
+    .test>div:first-child {
+        background-color: #E4E8E8;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    
+    .test>div:nth-child(2) {
+        background-color: #999;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    
+    .test>div:nth-child(3) {
+        background-color: #666;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    
+    .test>div:nth-child(4) {
+        background-color: #444;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    
+    .test h2 {
+        height: 150px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    
+    .test>div:nth-child(2) h2 {
+        color: #fff;
+    }
+    
+    .test>div:nth-child(3) h2 {
+        color: #fff;
+    }
+    
+    .test>div:nth-child(4) h2 {
+        color: #fff;
+    }
